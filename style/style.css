@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --main-white: #FFFFFF;
+    --secondary-grey: #c0c0c0;
+    --blue-button: #167bf7;
+    --botton-color: #00030c;
+    --main-font: 'Inter', sans-serif;
+    --button-blue-effect: #3c92fa;
+}
+
+body{  
+    background-color: var(--botton-color);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.secondary{
+    align-items: center;
+    margin: 0 10em;
+}
+.size{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.size__box{
+    margin: 0 6em;
+}
+.size__title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.size__image{
+    margin: 2em 0 2em 0;
+}
+.size__button{
+    background-color: var(--blue-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--main-white);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.secondary-button{
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+}
+.size__warning{
+    font-size: 12px;
+    color: var(--secondary-grey);
+}
+
+.secundary__image{
+    width: 80%;
+}
+.description__title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+    margin-bottom: 0.1em;
+}
+.description__text{
+    color: var(--secondary-grey);
+}
+.secondary__button{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.size__description{
+    padding: 2em;
+}
+.device{
+    text-align: center;
+}
+.device__title{
+    font-size: 48px;
+}
+.device__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.list__item{
+    font-size: 32px;
+    color: var(--main-white);
+}
+.baseboard{
+    text-align: center;
+    margin: 5em 3em;
+}
+.baseboard__soon{
+    margin-bottom: 2em;
+}
+.baseboard__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.list__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+.baseboard__text{
+    color: var(--secondary-grey);
+    margin: 1em 0;
+    font-size: 14px;
+}
+.list__link a:hover {
+    color: var(--button-blue-effect);
+}
+
+.list__link a:active {
+    color: purple;
+}
+
+.size__button:hover {
+    background-color: var(--button-blue-effect);
+    color: var(--botton-color);
+}
+
